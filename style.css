@@ -1,0 +1,59 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+
+.countdown {
+	margin-top: 100px;
+}
+
+.timer {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.timer div {
+
+	background-color:rgba(0, 4, 11, 0.662);
+	border: 2px solid #f1e5e5;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.timer div span {
+	display: block;
+	font-size: 60px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.timer div .label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#seco{
+	color: red;
+}
+#seconds{
+	color: red;
+}
+.bg
+{
+	position: absolute;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	background-image: url("blue-sky-half-moon-crescent-moon-clouds-star-trails-5k-5120x2880-8404.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+}
+
+
